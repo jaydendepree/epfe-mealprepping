@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EPFE Mealprepping - Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <header class="simple-header">
+        <div class="header-left">
+            <img src="images/logo.png" class="logo">
+            <div class="title">EPFE MEALPREPPING</div>
+        </div>
+        <div class="header-right">
+            <div class="page-title">Winkelwagen</div>
+        </div>
+    </header>
+
+    <div class="cart-container">
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items worden hier ingeladen via cart.js -->
+        </div>
+
+        <div class="cart-summary">
+            <h3><i class="fas fa-receipt"></i> BESTELLING INFORMATIE</h3>
+            <div class="summary-details">
+                <div class="summary-row">
+                    <span>Subtotaal</span>
+                    <span id="subtotal">€0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Bezoring</span>
+                    <span>GRATIS</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Totaal</span>
+                    <span id="total">€0.00</span>
+                </div>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">
+                <i class="fas fa-lock"></i> BESTELLEN
+            </button>
+        </div>
+    </div>
+
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>

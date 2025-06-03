@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EPFE Mealprepping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" class="logo">
+        <div class="title">EPFE MEALPREPPING</div>
+        <div class="nav">
+            <a href="#"><b>HOME</b></a>
+            <a href="#"><b>PRODUCTS</b></a>
+            <a href="#"><b>CONTACT</b></a>
+        </div>
+        <div class="icons">
+            <a href="admin.html"><i class="fas fa-user"></i></a>
+        </div>
+        <a href="cart.html" class="cart-icon" style="position: relative;">
+            <i class="fa fa-shopping-cart" style="font-size: 24px; color:white; margin-left: 10px;"></i>
+            <span id="cart-count" class="cart-badge">0</span>
+        </a>
+
+    </header>
+
+    <div class="search-container">
+        <div class="search-group">
+            <input type="text" placeholder="Search meals...">
+            <button>Zoeken</button>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter"><b>FILTER</b> <i class="fas fa-caret-down"></i></button>
+
+            <button class="reset"><b>RESET</b></button>
+        </div>
+    </div>
+
+
+    <h2 class="products-title">PRODUCTS:</h2>
+    <div id="product-container" class="products"></div>
+    <br>
+    <br>
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="EPFE Logo" class="footer-logo">
+            </div>
+
+            <div class="footer-links">
+                <div class="links-column">
+                    <h3>Producten</h3>
+                    <ul>
+                        <li><a href="#">Halal kaas</a></li>
+                        <li><a href="#">Standard kaas</a></li>
+                        <li><a href="#">Vega kaas</a></li>
+                        <li><a href="#">Halal worst</a></li>
+                        <li><a href="#">Standard worst</a></li>
+                        <li><a href="#">Vega worst</a></li>
+                    </ul>
+                </div>
+
+                <div class="links-column">
+                    <h3>Informatie</h3>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Over ons</a></li>
+                        <li><a href="#">Verzending / Betalen</a></li>
+                        <li><a href="#">Producten</a></li>
+                    </ul>
+                </div>
+
+                <div class="links-column">
+                    <h3>Account</h3>
+                    <ul>
+                        <li><a href="#">Mijn account</a></li>
+                        <li><a href="#">Bestelgeschiedenis</a></li>
+                        <li><a href="#">Zakelijk bestellen</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contactgegevens</h3>
+                <address>
+                    Kon. Wilhelminaplein 1<br>
+                    1062 HG, Amsterdam<br>
+                    Nederland
+                </address>
+                <p><a href="mailto:info@epfe-prepping.nl">info@epfe-prepping.nl</a></p>
+                <p>Ma - Zo / 00:00 - 23:59</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 EPFE Mealprepping. Alle rechten voorbehouden.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

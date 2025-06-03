@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - EPFE Mealprepping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" class="logo">
+        <div class="title">EPFE MEALPREPPING - ADMIN</div>
+        <div class="nav">
+            <a href="index.html">Terug naar Shop</a>
+            <a href="cart.html">Winkelwagen</a>
+        </div>
+    </header>
+
+    <div class="admin-container">
+        <div class="admin-tabs">
+            <button class="tab-btn active" onclick="showTab('products')">Producten</button>
+            <button class="tab-btn" onclick="showTab('add')">Product Toevoegen</button>
+        </div>
+
+        <div id="products-tab" class="tab-content">
+            <h2>Producten Beheren</h2>
+            <button onclick="resetProducts()">Reset Producten</button>
+            <div id="products-list"></div>
+        </div>
+
+        <div id="add-tab" class="tab-content" style="display:none;">
+            <h2>Nieuw Product</h2>
+            <form id="add-form">
+                <input type="text" id="name" placeholder="Naam" required>
+                <select id="type" required>
+                    <option value="Standard">Standard</option>
+                    <option value="Vega">Vega</option>
+                    <option value="Halal">Halal</option>
+                </select>
+                <input type="number" id="price" placeholder="Prijs" step="0.01" required>
+                <input type="number" id="stock" placeholder="Voorraad" required>
+                <input type="text" id="image" placeholder="Afbeelding (bijv. images/maaltijd.jpg)" required>
+                <button type="submit">Toevoegen</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Product Bewerken</h2>
+            <form id="edit-form">
+                <input type="hidden" id="edit-id">
+                <input type="text" id="edit-name" placeholder="Naam" required>
+                <select id="edit-type" required>
+                    <option value="Standard">Standard</option>
+                    <option value="Vega">Vega</option>
+                    <option value="Halal">Halal</option>
+                </select>
+                <input type="number" id="edit-price" placeholder="Prijs" step="0.01" required>
+                <input type="number" id="edit-stock" placeholder="Voorraad" required>
+                <input type="text" id="edit-image" placeholder="Afbeelding" required>
+                <button type="submit">Opslaan</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

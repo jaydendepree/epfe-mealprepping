@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "image": "images/biefstukmix.png",
+        "name": "Biefstukmix",
+        "sort": "Standard",
+        "stock": 15,
+        "price": 12.99
+    },
+    {
+        "id": 2,
+        "image": "images/broccolisate.jpg",
+        "name": "Broccoli Sate",
+        "sort": "Vega",
+        "stock": 8,
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "image": "images/kipteriyaki.jpg",
+        "name": "Kip Teriyaki",
+        "sort": "Halal",
+        "stock": 12,
+        "price": 11.49
+    },
+    {
+        "id": 4,
+        "image": "images/meatballs.jpg",
+        "name": "Gehaktballen",
+        "sort": "Standard",
+        "stock": 0,
+        "price": 10.99
+    },
+    {
+        "id": 5,
+        "image": "images/pastapestokip.jpg",
+        "name": "Pastapesto Kip",
+        "sort": "Standard",
+        "stock": 7,
+        "price": 8.99
+    },
+    {
+        "id": 6,
+        "image": "images/risottospinazie.jpg",
+        "name": "Risotto Spinazie",
+        "sort": "Vega",
+        "stock": 10,
+        "price": 9.49
+    },
+    {
+        "id": 7,
+        "image": "images/scrambledeggs.jpg",
+        "name": "Scrambled Eggs",
+        "sort": "Standard",
+        "stock": 5,
+        "price": 6.99
+    },
+    {
+        "id": 8,
+        "image": "images/tomatenrijst.jpg",
+        "name": "Tomatenrijst",
+        "sort": "Vega",
+        "stock": 9,
+        "price": 7.99
+    }
+]
