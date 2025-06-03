@@ -70,7 +70,7 @@ Het laden van de producten komt vanuit een js bestand zodat ook in de admin page
 Hier staat meer informatie in alleen de knoppen werken niet aangezien dit niet hoeftte. Wel staat er een copyright claim in en functioneren de knoppen in de footer niet.
 
 ## De online website
-De online website kun je vinden op: https://epfe-mealprepping.vercel.app
+De online website kun je vinden op: [https://epfe-mealprepping.vercel.app](https://epfe-mealprepping.vercel.app/)
 De github is te vinden op: https://github.com/jaydendepree/epfe-mealprepping
 
 ## Contributing
